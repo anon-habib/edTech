@@ -112,5 +112,9 @@ section, header {
     font-weight: 400 !important;
     color: var(--third-c);
 }
-
 /* feedback section end */
+
+.acc-w {
+    width: 60%;
+    margin: auto;
+}
