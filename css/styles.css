@@ -4,7 +4,8 @@
 /* common */
 :root {
     --primary-c: #289bde;
-    --secondery-c: #383939;
+    --secondery-c: #1d1d1d;
+    --third-c: #777777;
 }
 p, a {
     font-family: 'Poppins', sans-serif !important;
@@ -13,6 +14,9 @@ p, a {
 h1, h2, h3, h4, h5, h6, button {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 600 !important;
+}
+section, header {
+    margin-bottom: 120px;
 }
 /* header start */
 .c-nav ul li a {
@@ -31,7 +35,49 @@ h1, h2, h3, h4, h5, h6, button {
 .banner-inner p {
     font-size: 18px;
 }
-
-
-
 /* banner end */
+
+/* popular courses section start */
+.common-header {
+    margin-bottom: 50px;
+}
+.common-header h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.common-header p {
+    line-height: 30px;
+}
+.c-card-group h5 {
+    font-size: 25px;
+    color: var(--secondery-c);
+}
+.c-card-group p {
+    font-size: 16px;
+    color: var(--third-c);
+}
+.c-card-group h6 {
+    color: var(--primary-c);
+    font-size: 18px;
+}
+/* popular courses section end */
+
+/* the elearning institute section start */
+.n-and-r h6 {
+    font-size: 45px;
+    color: var(--secondery-c);
+}
+.n-and-r p {
+    font-size: 20px;
+    color: var(--third-c);
+}
+
+
+
+
+
+
+
+
+
+/* the elearning institute section end */
