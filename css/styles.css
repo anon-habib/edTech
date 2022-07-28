@@ -68,16 +68,8 @@ section, header {
     color: var(--secondery-c);
 }
 .n-and-r p {
-    font-size: 20px;
+    font-weight: 400 !important;
+    font-size: 17px;
     color: var(--third-c);
 }
-
-
-
-
-
-
-
-
-
 /* the elearning institute section end */
