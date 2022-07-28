@@ -90,9 +90,6 @@ section, header {
 /* ready to jond section end */
 
 /* successful students section start */
-.card-b {
-    padding: 0 0 0 0;
-}
 .successful-students h5 {
     font-size: 20px;
     color: var(--third-c);
