@@ -1,4 +1,4 @@
-/* fonts (font-family: 'Poppins', sans-serif;) */
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 /* common */
@@ -7,12 +7,12 @@
     --secondery-c: #383939;
 }
 p, a {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
 }
 h1, h2, h3, h4, h5, h6, button {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
 }
 /* header start */
 .c-nav ul li a {
@@ -23,3 +23,15 @@ h1, h2, h3, h4, h5, h6, button {
     color: var(--primary-c);
 }
 /* header end */
+
+/* banner start */
+.banner-inner h5 {
+    font-size: 65px;
+}
+.banner-inner p {
+    font-size: 18px;
+}
+
+
+
+/* banner end */
