@@ -94,8 +94,23 @@ section, header {
     font-size: 20px;
     color: var(--third-c);
 }
-
-
-
-
 /* successful students section end */
+
+/* feedback section start */
+.ratings ul li i {
+    color: #f59e0b;
+}
+.review-info p {
+    color: var(--third-c);
+}
+.review-info h5 {
+    font-size: 18px;
+    color: var(--secondery-c);
+}
+.review-info h6 {
+    font-size: 16;
+    font-weight: 400 !important;
+    color: var(--third-c);
+}
+
+/* feedback section end */
