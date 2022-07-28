@@ -63,6 +63,9 @@ section, header {
 /* popular courses section end */
 
 /* the elearning institute section start */
+.student-contents {
+    padding: 30px 0;
+}
 .n-and-r h6 {
     font-size: 45px;
     color: var(--secondery-c);
