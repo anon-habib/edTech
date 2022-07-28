@@ -76,3 +76,16 @@ section, header {
     color: var(--third-c);
 }
 /* the elearning institute section end */
+
+/* ready to jond section start */
+.reg-inner {
+    color: #ffffff;
+    background-color: var(--primary-c);
+    padding: 80px;
+    border-radius: 5px;
+}
+.reg-inner h1 {
+    margin-bottom: 12px;
+}
+
+/* ready to jond section end */

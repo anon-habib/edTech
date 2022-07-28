@@ -20,7 +20,8 @@
         <nav class="navbar navbar-expand-lg py-md-4">
             <div class="container g-0">
                 <a class="navbar-brand" href="#">edTech</a>
-                <button class="btn btn-outline-info d-none d-md-block d-lg-none ms-md-auto me-3">Registar</button>
+                <a href="#register"
+                    class="btn btn-outline-info d-none d-md-block d-lg-none ms-md-auto me-3">Register</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -43,12 +44,12 @@
                         <li class="nav-item mx-lg-4">
                             <a class="nav-link" href="#">About</a>
                         </li>
-                        <li class="nav-item mx-lg-4">
-                            <button class="btn btn-outline-info d-block d-md-none">Registar</button>
+                        <li class="nav-item mx-lg-4 mt-2 d-inline d-md-none">
+                            <a href="#register" class="btn btn-outline-info ">Register</a>
                         </li>
                     </ul>
                 </div>
-                <button class="btn btn-outline-info d-none d-lg-block">Registar</button>
+                <a href="#register" class="btn btn-outline-info d-none d-lg-block">Register</a>
             </div>
         </nav>
         <!-- navbar end -->
@@ -235,17 +236,20 @@
                     <div class="student">
                         <img src="images/others/working.png" class="img-fluid" alt="working student">
                     </div>
-                </div>    
+                </div>
                 <div class="col-md-6">
                     <div class="student-contents">
                         <div class="common-header">
                             <div>
                                 <h2>Explore The elearning Institute</h2>
-                                <p>E-learning is a type of learning conducted digitally via electronic media, typically involving the internet.
-    
-                                    It can be accessed via most electronic devices including a computer, laptop, tablet or smartphone, making it a versatile and easy way for students to learn wherever they are. E-learning resources come in a variety of forms to from software programmes and digital courses to interactive online platform and apps. <br><br>
-                                    
-                                    Below are some common types of e-learning methods and the differences between them.</p>
+                                <p>E-learning is a type of learning conducted digitally via electronic media, typically
+                                    involving the internet. It can be accessed via most electronic devices including a
+                                    computer, laptop, tablet or smartphone, making it a versatile and easy way for
+                                    students to learn wherever they are. E-learning resources come in a variety of forms
+                                    to from software programmes and digital courses to interactive online platform and
+                                    apps.<br><br>
+                                    Below are some common types of e-learning methods and the differences between them.
+                                </p>
                             </div>
                         </div>
                         <div class="n-and-r">
@@ -253,15 +257,15 @@
                                 <div class="col-md-3 col-6">
                                     <h6>3.2k+</h6>
                                     <p class="text-muted">Online Course</p>
-                                </div>    
+                                </div>
                                 <div class="col-md-3 col-6">
                                     <h6>600+</h6>
                                     <p class="text-muted">Expert member</p>
-                                </div>    
+                                </div>
                                 <div class="col-md-3 col-6">
                                     <h6>16k</h6>
                                     <p class="text-muted">Rating & Review</p>
-                                </div>                            
+                                </div>
                             </div>
                             <button class="btn btn-lg btn-primary">Read More</button>
                         </div>
@@ -270,6 +274,105 @@
             </div>
         </section>
         <!-- the elearning institute section end -->
+
+        <!-- ready to jond section start -->
+        <section class="register" id="register">
+            <div class="reg-inner">
+                <div class="d-flex justify-content-lg-between">
+                    <div class="ready-cotent">
+                        <h1>Ready to join?</h1>
+                        <p>It is high time to join our courses. No more dealy is affordalbe, join now, quickly!</p>
+                    </div>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Register Now</button>
+
+                    <!-- modal start -->
+                    <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- registration form start -->
+                                    <form class="row g-3 needs-validation" novalidate>
+                                        <div class="col-md-6">
+                                            <label for="validationCustom01" class="form-label text-dark">First
+                                                name</label>
+                                            <input type="text" class="form-control" id="validationCustom01" required>
+                                            <div class="invalid-feedback">
+                                                Please enter your first name.
+                                            </div>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="validationCustom02" class="form-label text-dark">Last
+                                                name</label>
+                                            <input type="text" class="form-control" id="validationCustom02" required>
+                                            <div class="invalid-feedback">
+                                                Please enter your last name.
+                                            </div>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="validationCustomUsername"
+                                                class="form-label text-dark">Username</label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                                <input type="text" class="form-control" id="validationCustomUsername"
+                                                    aria-describedby="inputGroupPrepend" required>
+                                                <div class="invalid-feedback">
+                                                    Please choose a username.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="validationCustom05" class="form-label text-dark">Address</label>
+                                            <input type="text" class="form-control" id="validationCustom05" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid address.
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="invalidCheck" required>
+                                                <label class="form-check-label text-dark" for="invalidCheck">
+                                                    Agree to terms and conditions
+                                                </label>
+                                                <div class="valid-feedback">
+                                                    Okay!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    You must agree before submitting.
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                                </form>
+                                <!-- registration form end -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal end -->
+                </div>
+            </div>
+        </section>
+        <!-- ready to jond section end -->
 
 
 
@@ -293,7 +396,8 @@
 
 
 
-
+    <!-- javascript (for form validition) -->
+    <script src="js/script.js"></script>
     <!-- bootstrap js v5.2.0 -->
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
