@@ -1,0 +1,25 @@
+/* fonts (font-family: 'Poppins', sans-serif;) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* common */
+:root {
+    --primary-c: #289bde;
+    --secondery-c: #383939;
+}
+p, a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+/* header start */
+.c-nav ul li a {
+    color: var(--secondery-c);
+    transition: .3s;
+}
+.c-nav ul li a:hover {
+    color: var(--primary-c);
+}
+/* header end */
