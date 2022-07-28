@@ -278,24 +278,26 @@
         <!-- ready to jond section start -->
         <section class="register" id="register">
             <div class="reg-inner">
-                <div class="d-flex justify-content-lg-between">
+                <div
+                    class="d-block text-center text-lg-start d-lg-flex justify-content-lg-center justify-content-lg-between">
                     <div class="ready-cotent">
                         <h1>Ready to join?</h1>
                         <p>It is high time to join our courses. No more dealy is affordalbe, join now, quickly!</p>
                     </div>
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">Register Now</button>
+                    <button type="button" class="btn btn-light mt-4 mt-lg-0" data-bs-toggle="modal"
+                        data-bs-target="#formModal">Register Now</button>
 
                     <!-- modal start -->
-                    <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
+                    <div class="modal fade" id="formModal" aria-labelledby="formModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                    <h5 class="modal-title" id="formModalLabel">New message</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
+
                                     <!-- registration form start -->
                                     <form class="row g-3 needs-validation" novalidate>
                                         <div class="col-md-6">
@@ -327,12 +329,29 @@
                                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
                                                 <input type="text" class="form-control" id="validationCustomUsername"
                                                     aria-describedby="inputGroupPrepend" required>
+                                                <div class="valid-feedback">
+                                                    Looks good!
+                                                </div>
                                                 <div class="invalid-feedback">
                                                     Please choose a username.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
+                                            <label for="validationCustomEmail"
+                                                class="form-label text-dark">Email</label>
+                                            <div class="input-group has-validation">
+                                                <input type="email" class="form-control" id="validationCustomEmail"
+                                                    aria-describedby="inputGroupPrepend" required>
+                                                <div class="valid-feedback">
+                                                    Looks good!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Please Enter a Valid Email address.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
                                             <label for="validationCustom05" class="form-label text-dark">Address</label>
                                             <input type="text" class="form-control" id="validationCustom05" required>
                                             <div class="valid-feedback">
@@ -365,14 +384,38 @@
                                 </div>
                                 </form>
                                 <!-- registration form end -->
+
                             </div>
                         </div>
                     </div>
                     <!-- modal end -->
+
                 </div>
             </div>
         </section>
         <!-- ready to jond section end -->
+
+        <!-- successful students section start -->
+        <section>
+            <div class="common-header">
+                <div>
+                    <h2>Meet Our Successfull Students</h2>
+                    <p>It is a long established fact that a teaching school become successfull  if the student have success in life.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- successful students section end -->
 
 
 
