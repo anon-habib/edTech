@@ -114,7 +114,33 @@ section, header {
 }
 /* feedback section end */
 
-.acc-w {
+/* frequently asked questions section start */
+.acc-w, .footer-inner {
     width: 60%;
     margin: auto;
 }
+/* frequently asked questions section end */
+
+/* footer start */
+footer {
+    background-color: #161616;
+}
+.footer-inner {
+    padding: 60px 0px;
+}
+.pmt {
+    height: 16px;
+    border: 1px solid #ffffff;
+}
+.socials ul li {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    background-color: var(--third-c);
+    border-radius: 100%;
+}
+.socials ul li i {
+    color: #ffffff;
+    padding: 0 5px;
+}
+/* footer end */
