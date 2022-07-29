@@ -115,6 +115,12 @@ section, header {
 /* feedback section end */
 
 /* frequently asked questions section start */
+.fandq h2 {
+    font-size: 20px;
+}
+.fandq p {
+    font-size: 16px;
+}
 .acc-w, .footer-inner {
     width: 60%;
     margin: auto;
@@ -128,6 +134,9 @@ footer {
 .footer-inner {
     padding: 60px 0px;
 }
+.footer-inner h1 {
+    font-size: 40px;
+}
 .pmt {
     height: 16px;
     border: 1px solid #ffffff;
@@ -138,6 +147,15 @@ footer {
     margin: 0 5px;
     background-color: var(--third-c);
     border-radius: 100%;
+    animation: social-i 1s .3s 1;
+}
+@keyframes social-i {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }    
 }
 .socials ul li i {
     color: #ffffff;

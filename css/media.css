@@ -1,7 +1,26 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) {
-    section {
+    section, header {
         margin-bottom: 35px;
+    }
+    .banner-inner h5 {
+        font-size: 20px;
+    }
+    .banner-inner p {
+        font-size: 12px;
+    }
+    .common-header h2 {
+        font-size: 18px;
+    }
+    .common-header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .c-card-group h5 {
+        font-size: 16px;
+    }
+    .c-card-group p {
+        font-size: 14px;
     }
     .c-card-group img {
         width: 100%;
@@ -9,14 +28,44 @@
     .acc-w {
         width: 100%;
         margin: auto;
+    }
+    .fandq h2 {
+        font-size: 16px;
+    }
+    .n-and-r h6 {
+        font-size: 25px;
+    }
+    .footer-inner {
+        padding: 15px 0px;
+    }
+    .footer-inner h1 {
+        font-size: 30px;
     }
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
-    section {
+    section, header {
         margin-bottom: 35px;
+    }
+    .banner-inner h5 {
+        font-size: 20px;
+    }
+    .banner-inner p {
+        font-size: 12px;
+    }
+    .common-header h2 {
+        font-size: 18px;
+    }
+    .common-header p {
+        line-height: 24px;
+    }
+    .c-card-group h5 {
+        font-size: 16px;
+    }
+    .c-card-group p {
+        font-size: 14px;
     }
     .c-card-group img {
         width: 100%;
@@ -25,17 +74,47 @@
         width: 100%;
         margin: auto;
     }
+    .fandq h2 {
+        font-size: 16px;
+    }
+    .fandq p {
+        font-size: 16px;
+    }
+    .n-and-r h6 {
+        font-size: 25px;
+    }
+    .footer-inner {
+        padding: 15px 0px;
+    }
+    .footer-inner h1 {
+        font-size: 30px;
+    }
 
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-    section {
+    section, header {
         margin-bottom: 60px;
+    }
+    .banner-inner h5 {
+        font-size: 40px;
+    }
+    .banner-inner p {
+        font-size: 16px;
+    }
+    .common-header h2 {
+        font-size: 30px;
+    }
+    .n-and-r h6 {
+        font-size: 25px;
     }
     .acc-w {
         width: 100%;
         margin: auto;
+    }
+    .footer-inner {
+        padding: 30px 0px;
     }
 
 
